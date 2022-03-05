@@ -24,9 +24,7 @@ namespace SampleLogin.Controllers
 
             if(!ModelState.IsValid)
             {
-                return BadRequest(
-                    getErrorLoginResponse()
-                );
+                return View(loginViewModel);
             }
 
             return Ok(

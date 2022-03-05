@@ -3,27 +3,31 @@
     ViewData["Title"] = "Home Page";
 }
 
-<form method="post" asp-controller="Home" asp-action="Index">
+<form id="myform" method="post" asp-controller="Home" asp-action="Index">
 
     <div class="mb-3">
-        <label for="InputName1" class="form-label">Ad</label>
-        <input type="text" class="form-control" id="InputName1">
+        <label asp-for="Name" class="form-label">Ad</label>
+        <input type="text" class="form-control" id="InputName1" asp-for="Name">
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        <label for="InputLastName1" class="form-label">Soyad</label>
-        <input type="text" class="form-control" id="InputLastName1">
+        <label asp-for="LastName" class="form-label">Soyad</label>
+        <input type="text" class="form-control" id="InputLastName1" asp-for="LastName">
+        <span asp-validation-for="LastName" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        <label for="InputEmail1" class="form-label">Eposta</label>
-        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+        <label asp-for="Email" class="form-label">Eposta</label>
+        <input type="email" class="form-control" id="InputEmail1" asp-for="Email" aria-describedby="emailHelp">
+        <span asp-validation-for="Email" class="text-danger"></span>
         <div id="emailHelp" class="form-text">Epostanızı kimseyle paylaşmayacağız (yerseniz)</div>
     </div>
 
     <div class="mb-3">
-        <label for="InputPassword1" class="form-label">Parola</label>
-        <input type="password" class="form-control" id="InputPassword1">
+        <label asp-for="Password" class="form-label">Parola</label>
+        <input type="password" class="form-control" id="InputPassword1" asp-for="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
