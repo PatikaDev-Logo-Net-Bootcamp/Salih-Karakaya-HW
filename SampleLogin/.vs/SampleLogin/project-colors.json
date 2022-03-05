@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3c62e8b2-3547-4815-9989-1f3966fb7cc0": {
+      "ProjectGuid": "3c62e8b2-3547-4815-9989-1f3966fb7cc0",
+      "DisplayName": "SampleLogin",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
