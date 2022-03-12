@@ -17,7 +17,7 @@ namespace HW2.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-
+            
             await _next(context);
         }
 
