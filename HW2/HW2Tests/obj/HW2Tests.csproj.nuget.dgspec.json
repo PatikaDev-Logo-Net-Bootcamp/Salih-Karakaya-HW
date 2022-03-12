@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj": {}
+    "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj": {
+    "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj",
+        "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj",
         "projectName": "HW2Tests",
-        "projectPath": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj",
-        "packagesPath": "C:\\Users\\salih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\obj\\",
+        "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\HW2Tests.csproj",
+        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\salih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj": {
-                "projectPath": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj"
+              "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj": {
+                "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj"
               }
             }
           }
@@ -79,24 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj": {
+    "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj",
+        "projectUniqueName": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj",
         "projectName": "HW2",
-        "projectPath": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj",
-        "packagesPath": "C:\\Users\\salih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salih\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\obj\\",
+        "projectPath": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\HW2.csproj",
+        "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HUAWEI\\source\\repos\\PatikaDev-Logo-Net-Bootcamp\\Salih-Karakaya-HW\\HW2\\HW2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\salih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
