@@ -4,13 +4,19 @@
     {
         public static bool IsCompatible(this HttpContext context, string? version, out string errorMessage)
         {
-            if (!double.TryParse(version, out var systemVersion))
+            if (!Version.TryParse(version, out var systemVersion))
             {
                 errorMessage = SystemVersionErrorMessage();
                 return false;
             }
+            
+            if (!Version.TryParse(GetVersionFrom(context), out var givenVersion))
+            {
+                errorMessage = VersionFormatErrorMessage();
+                return false;
+            }
 
-            if (GetVersionNumberFrom(context) > systemVersion)
+            if (givenVersion > systemVersion)
             {
                 errorMessage = CompatibilityErrorMessage();
                 return false;
@@ -30,11 +36,15 @@
             return "Malformed system version, please try again later";
         }
 
-        private static double GetVersionNumberFrom(HttpContext httpContext)
+        private static string VersionFormatErrorMessage()
         {
-            httpContext.Request.Headers.TryGetValue("version", out var givenVersion);
-            _ = double.TryParse(givenVersion, out var versionNumber);
-            return versionNumber;
+            return "Given version is invalid, format should be major.minor";
+        }
+
+        private static string GetVersionFrom(HttpContext context)
+        {
+            _ = context.Request.Headers.TryGetValue("version", out var givenVersion);
+            return givenVersion;
         }
 
         private static string CompatibilityErrorMessage()
