@@ -27,12 +27,20 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseVersionControl(
-    Options.Create(
-        new VersionOption
-        {
-            Version = app.Configuration.GetValue<string>("version")
-        })
-    );
+app.UseWhen(context => !context.Request.Path.StartsWithSegments("/swagger") &&
+                       !context.Request.Path.StartsWithSegments("/login") &&
+                       !context.Request.Path.StartsWithSegments("/register"),
+    appBuilder =>
+    {
+        appBuilder.UseVersionControl(
+            Options.Create(
+                new VersionOption
+                {
+                    Version = app.Configuration.GetValue<string>("version")
+                }
+            )
+        );
+    }
+);
 
 app.Run();
