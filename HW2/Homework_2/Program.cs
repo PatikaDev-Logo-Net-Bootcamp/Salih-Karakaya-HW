@@ -1,3 +1,4 @@
+using Homework_2.Middleware;
 using HW2.Middleware;
 using Microsoft.Extensions.Options;
 
@@ -8,7 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(config =>
+{
+    config.OperationFilter<CustomSwaggerHeader>();
+});
 
 var app = builder.Build();
 

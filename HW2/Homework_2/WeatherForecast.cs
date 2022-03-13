@@ -1,4 +1,4 @@
-namespace HW2
+namespace Homework_2
 {
     public class WeatherForecast
     {

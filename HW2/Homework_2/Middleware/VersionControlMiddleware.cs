@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using HW2.Extensions;
+using Microsoft.Extensions.Options;
 
 namespace HW2.Middleware
 {
@@ -17,19 +18,17 @@ namespace HW2.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-            
+            if(context.IsNotCompatible(options.Value.Version, out var errorMessage))
+            {
+                await context.RespondWith(
+                    StatusCodes.Status401Unauthorized, 
+                    errorMessage
+                );
+                return;
+            }
+
             await _next(context);
         }
 
     }
-
-    public static class VersionControlMiddlewareExtensions
-    {
-        public static IApplicationBuilder UseVersionControl(
-            this IApplicationBuilder builder, IOptions<VersionOption> options)
-        {
-            return builder.UseMiddleware<VersionControlMiddleware>(options);
-        }
-    }
-
 }

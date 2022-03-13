@@ -4,19 +4,19 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:44778",
+      "applicationUrl": "http://localhost:27261",
       "sslPort": 0
     }
   },
   "profiles": {
-    "HW2": {
+    "Homework_2": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5203",
+      "applicationUrl": "http://localhost:5122",
       "dotnetRunMessages": true
     },
     "IIS Express": {
