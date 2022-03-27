@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p6mkY8eQP0ln7u5LWlXnpP4xx3BGPv5FEnYqYT7/02caY9GxrCTmJlh2uDy39/xy+k8kUcKh7MJaK/bEbfTSJw==",
+  "success": true,
+  "projectFilePath": "D:\\salih\\bootcamp\\HW4\\First.App\\First.App\\First.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
