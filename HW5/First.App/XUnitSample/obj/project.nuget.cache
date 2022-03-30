@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g0i5sf1RR2NsMvXbN2mqZPSfsdvhjm1TgWBwspcS9dQBGF406h9qJrkFaujnbyZ/Z2GXrZI1K4avhtq49LFy9Q==",
+  "success": true,
+  "projectFilePath": "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
