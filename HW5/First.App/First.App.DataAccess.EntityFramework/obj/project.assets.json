@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
+      "projectUniqueName": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
       "projectName": "First.App.DataAccess.EntityFramework",
-      "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
+      "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\obj\\",
+      "outputPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5840,8 +5840,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
-              "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj"
+            "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
+              "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj"
             }
           }
         }
@@ -5900,7 +5900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

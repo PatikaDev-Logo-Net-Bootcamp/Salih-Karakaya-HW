@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
+      "projectUniqueName": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
       "projectName": "First.App.DataAccess.EntityFramework.Repository",
-      "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
+      "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\obj\\",
+      "outputPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5764,8 +5764,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
-              "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
+            "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj": {
+              "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj"
             }
           }
         }
@@ -5814,7 +5814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

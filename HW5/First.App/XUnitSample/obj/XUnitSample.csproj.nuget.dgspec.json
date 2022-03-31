@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj": {}
+    "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj": {}
   },
   "projects": {
-    "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj": {
+    "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj",
+        "projectUniqueName": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj",
         "projectName": "XUnitSample",
-        "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj",
+        "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\XUnitSample\\XUnitSample.csproj",
         "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "D:\\salih\\bootcamp\\HW5\\First.App\\XUnitSample\\obj\\",
+        "outputPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\XUnitSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

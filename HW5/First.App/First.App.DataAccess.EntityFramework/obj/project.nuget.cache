@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G//eq9jVuVpLU4HUykdqUEKoyDsB3kLEcv+YmJNit0mWh2uEYQYarSVigFe0vSrz0gzGIWY1zOvu9bum9bPNwQ==",
+  "dgSpecHash": "KaEihN4zit2vwz15X5HwcgFabcvxgIvzhsnDT81WPU5J4Ox5Cz3UYXA/2skIiOSoEc9ykmZcpXJHXWdDZJJJyg==",
   "success": true,
-  "projectFilePath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
+  "projectFilePath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework\\First.App.DataAccess.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HUAWEI\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

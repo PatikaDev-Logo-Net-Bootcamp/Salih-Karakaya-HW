@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App\\First.App.csproj",
+      "projectUniqueName": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App\\First.App.csproj",
       "projectName": "First.App",
-      "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App\\First.App.csproj",
+      "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App\\First.App.csproj",
       "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-      "outputPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App\\obj\\",
+      "outputPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
-              "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj"
+            "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj": {
+              "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.Domain\\First.App.Domain.csproj"
             }
           }
         }
@@ -85,7 +85,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
+            "version": "[3.1.23, 3.1.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -104,7 +104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

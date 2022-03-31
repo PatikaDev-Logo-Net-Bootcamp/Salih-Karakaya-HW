@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\salih\\bootcamp\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj": {}
+    "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj": {}
   },
   "projects": {
-    "D:\\salih\\bootcamp\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj": {
+    "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\salih\\bootcamp\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj",
+        "projectUniqueName": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj",
         "projectName": "BackgroundQueue.API",
-        "projectPath": "D:\\salih\\bootcamp\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj",
+        "projectPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\BackgroundQueue.API\\BackgroundQueue.API.csproj",
         "packagesPath": "C:\\Users\\HUAWEI\\.nuget\\packages\\",
-        "outputPath": "D:\\salih\\bootcamp\\HW5\\First.App\\BackgroundQueue.API\\obj\\",
+        "outputPath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\BackgroundQueue.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUAWEI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.13, 5.0.13]"
+              "version": "[5.0.15, 5.0.15]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
