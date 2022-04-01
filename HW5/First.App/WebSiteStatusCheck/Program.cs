@@ -28,14 +28,6 @@ namespace WebSiteStatusCheck
                 .ConfigureServices((hostContext, services) =>
                 {
                     services
-                            .AddDbContext<AppDbContext>(options =>
-                            {
-                                options.UseSqlServer(Configuration.GetConnectionString("DBConnection"));
-                            })
-                            .AddTransient<IUnitOfWork, UnitOfWork>()
-                            .AddTransient(typeof(IRepository<>), typeof(GenericRepository<>))
-                            .AddSingleton<IPostFetcherService, PostFetcherService>()
-                            .AddSingleton<IPostService, PostService>()
                             .AddHostedService<Worker>();
                 });
     }

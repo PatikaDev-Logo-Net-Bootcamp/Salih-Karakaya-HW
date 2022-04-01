@@ -12,11 +12,11 @@ namespace First.App.Business.Concretes
     {
         private readonly IRepository<Post> repository;
         private readonly IUnitOfWork unitOfWork;
-        private readonly PostFetcherService _postFetcherService;
+        private readonly IPostFetcherService _postFetcherService;
         public PostService(
             IRepository<Post> repository,
             IUnitOfWork unitOfWork,
-            PostFetcherService postFetcherService)
+            IPostFetcherService postFetcherService)
         {
             this.repository = repository;
             this.unitOfWork = unitOfWork;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NEoxXOcW/tPV3giT9WwJ2TczhbqtSlmWn6Olvz1RQO1kmulH30OTcbbXjg9IJA8R2XeSUEzete26jrgpPhBNYQ==",
+  "dgSpecHash": "yjoGt4a64Xu+FKiOReQ9mwjMV4g+6M0GLOgjELNq45/JsaSYq8+/bDeXat3OyLYm8tCz6cUPx+ukIK6ASbqtiA==",
   "success": true,
   "projectFilePath": "D:\\salih\\bootcamp\\Salih-Karakaya-HW\\HW5\\First.App\\First.App.DataAccess.EntityFramework.Repository\\First.App.DataAccess.EntityFramework.Repository.csproj",
   "expectedPackageFiles": [
@@ -97,10 +97,7 @@
     "C:\\Users\\HUAWEI\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\HUAWEI\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\HUAWEI\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\HUAWEI\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\HUAWEI\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

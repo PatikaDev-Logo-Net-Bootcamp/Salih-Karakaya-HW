@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First.App.Domain", "First.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSiteStatusCheck", "WebSiteStatusCheck\WebSiteStatusCheck.csproj", "{6EBA217E-7889-4171-A322-AE8A1F2521DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteStatusCheckAPI", "WebSiteStatusCheckAPI\WebSiteStatusCheckAPI.csproj", "{CE37422E-C467-4179-A0DF-31EC4BE526D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6EBA217E-7889-4171-A322-AE8A1F2521DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EBA217E-7889-4171-A322-AE8A1F2521DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EBA217E-7889-4171-A322-AE8A1F2521DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE37422E-C467-4179-A0DF-31EC4BE526D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE37422E-C467-4179-A0DF-31EC4BE526D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE37422E-C467-4179-A0DF-31EC4BE526D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE37422E-C467-4179-A0DF-31EC4BE526D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
