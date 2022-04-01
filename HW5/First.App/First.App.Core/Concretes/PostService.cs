@@ -41,7 +41,7 @@ namespace First.App.Business.Concretes
 
         public async Task<IList<PostDto>> FetchAllPosts()
         {
-            return await _postFetcherService.FetchAllPosts();
+            return await _postFetcherService.Fetch();
         }
 
     }
