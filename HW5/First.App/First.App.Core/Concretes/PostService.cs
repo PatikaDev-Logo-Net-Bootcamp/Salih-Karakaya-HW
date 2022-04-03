@@ -23,6 +23,11 @@ namespace First.App.Business.Concretes
             this._postFetcherService = postFetcherService;
         }
 
+        public async Task<List<PostDto>> FetchAllPosts()
+        {
+            return await _postFetcherService.Fetch();
+        }
+
         public void AddPost(Post post)
         {
             repository.Add(post);
@@ -38,11 +43,5 @@ namespace First.App.Business.Concretes
         {
             return repository.Get().ToList();
         }
-
-        public async Task<IList<PostDto>> FetchAllPosts()
-        {
-            return await _postFetcherService.Fetch();
-        }
-
     }
 }
