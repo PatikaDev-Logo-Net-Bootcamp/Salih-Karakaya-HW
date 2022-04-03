@@ -1,4 +1,4 @@
-using First.App.Business.Concretes;
+using First.App.Business.Abstract;
 using First.App.Business.DTOs;
 using First.App.Domain.Entities;
 using Microsoft.Extensions.Hosting;
@@ -13,8 +13,8 @@ namespace WebSiteStatusCheck
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
-        private readonly PostService _postService;
-        public Worker(ILogger<Worker> logger, PostService postService)
+        private readonly IPostService _postService;
+        public Worker(ILogger<Worker> logger, IPostService postService)
         {
             _logger = logger;
             _postService = postService;
@@ -32,7 +32,7 @@ namespace WebSiteStatusCheck
             }
         }
 
-        private static List<Post> ToEntity(IList<PostDto> postDtos)
+        private static List<Post> ToEntity(List<PostDto> postDtos)
         {
             return postDtos.Select(post => new Post
             {
